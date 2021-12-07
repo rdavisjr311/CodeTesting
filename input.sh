@@ -1,3 +1,4 @@
+echo this is a test
 echo this is a an input script
 echo "Enter Customer"
 read x
