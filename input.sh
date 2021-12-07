@@ -1,5 +1,3 @@
-echo "Enter Date (Format: mm/dd/yyyy"
-read a
 echo "Enter Customer"
 read x
 echo "Enter Tenant"
