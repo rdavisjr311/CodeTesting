@@ -5,7 +5,7 @@ gather_vars {
     clear
     echo "Enter Tenant"
     read tenant
-    clearn
+    clear
     echo "Enter Enviroment"
     read environment
 }
