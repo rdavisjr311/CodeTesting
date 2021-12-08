@@ -1,7 +1,4 @@
 gather_vars {
-    customer=
-    tenant=
-    environment=
     clear
     echo "Enter Customer"
     read customer
@@ -13,7 +10,7 @@ gather_vars {
     read environment
 }
 
-gather_vars
+## gather_vars
 
 echo "Is this the correct information? (y/n)"
 echo "--global.customer $customer --global.tenant $tenant --global.environment $environment"
