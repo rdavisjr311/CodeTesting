@@ -13,10 +13,6 @@ gather_vars {
     read environment
 }
 
-customer=
-tenant=
-environment=
-
 gather_vars
 
 echo "Is this the correct information? (y/n)"
