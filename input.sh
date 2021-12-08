@@ -14,6 +14,9 @@ read answer
 if [[ $answer=y ]]
     then
         echo "--global.customer $customer --global.tenant $tenant --global.environment $environment"
-    else
-        echo "Not correct information."
+fi
+
+if [[$answer=n]]
+    then
+        echo "Information not correct"
 fi
