@@ -1,4 +1,7 @@
 gather_vars {
+    customer=
+    tenant=
+    environment=
     clear
     echo "Enter Customer"
     read customer
@@ -9,6 +12,7 @@ gather_vars {
     echo "Enter Enviroment"
     read environment
 }
+
 customer=
 tenant=
 environment=
