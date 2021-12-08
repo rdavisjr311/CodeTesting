@@ -11,7 +11,8 @@ read environment
 echo "Is this the correct information? (y/n)"
 echo "--global.customer $customer --global.tenant $tenant --global.environment $environment"
 read answer
-if [ $answer=y ]; then
+if [[ $answer=y ]]
+    then
         echo "--global.customer $customer --global.tenant $tenant --global.environment $environment"
     else
         echo "Not correct information."
