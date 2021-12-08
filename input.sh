@@ -16,7 +16,7 @@ if [[ $answer=y ]]
         echo "--global.customer $customer --global.tenant $tenant --global.environment $environment"
 fi
 
-if [[$answer=n]]
+if [[ $answer=n ]]
     then
         echo "Information not correct"
 fi
